@@ -7,6 +7,7 @@ import { MaterialsModule } from './materials.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { UiModule } from './ui/ui.module';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { UiModule } from './ui/ui.module';
     FormsModule,
     FlexLayoutModule,
     UiModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
