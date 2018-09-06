@@ -5,11 +5,13 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { MaterialsModule } from '../materials.module';
+import { ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   imports: [
     CommonModule,
     MaterialsModule,
+    ReactiveFormsModule
   ],
   declarations: [LayoutComponent, 
     HeaderComponent, 
